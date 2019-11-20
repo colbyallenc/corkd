@@ -1,11 +1,10 @@
 import { expect } from 'chai';
 import { shallowMount } from '@vue/test-utils';
-import Home from '@/components/Home.vue';
+import Header from '@/components/Header.vue';
 
 describe('Home.vue', () => {
-  // beforeEach();
   it('renders h1 tag', () => {
-    const wrapper = shallowMount(Home);
+    const wrapper = shallowMount(Header);
     expect(wrapper.find('h1').text()).equal('Corkd');
   });
 });
