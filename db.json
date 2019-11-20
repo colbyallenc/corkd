@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "2",
+      "name": "item-3",
+      "location": "country2"
+    },
+    {
+      "id": "3",
+      "name": "item-4",
+      "location": "country3"
+    },
+    {
+      "id": "SS-G4t5"
+    },
+    {
+      "name": "item-4",
+      "location": "country-4",
+      "id": "f3w_8os"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "cali"
+    }
+  ]
+}

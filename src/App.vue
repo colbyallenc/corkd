@@ -1,28 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="projects">
+    <!-- <h1 class="subheading grey--text"> Projects</h1> -->
+    <!-- <v-container class="my-5">
+      <v-layout row>
+        <v-flex xs12 md6>
+          <v-btn outline block class="primary">1</v-btn>
+        </v-flex>
+           <v-flex xs12 md6>
+          <v-btn outline block class="primary">2</v-btn>
+        </v-flex>
+      </v-layout> -->
+    <!-- </v-container> -->
+    <home />
   </div>
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import Home from './components/Home.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
+    Home,
   },
 };
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
